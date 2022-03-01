@@ -17,7 +17,7 @@ function linkAction(){
     navLink.forEach(n => n.classList.remove('active'));
     this.classList.add('active');
 
-    const navMenu = document.getElementById('mav-menu')
+    const navMenu = document.getElementById('nav-menu')
     navMenu.classList.remove('show')
 }
 
